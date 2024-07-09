@@ -25,19 +25,19 @@ const AddBook = () => {
   return (
     <div className="student-form-container">
       <form className="student-form" onSubmit={handleSubmit}>
-        <h2>Add Book</h2>
+        <h2>Add Courses</h2>
         <div className="form-group">
-          <label htmlFor="book">Book Name:</label>
+          <label htmlFor="book">Course Name:</label>
           <input type="text" id="book" name="book" 
           onChange={(e) => setName(e.target.value)}/>
         </div>
         <div className="form-group">
-          <label htmlFor="author">Author Name:</label>
+          <label htmlFor="author">Offered by:</label>
           <input type="text" id="author" name="author" 
           onChange={(e) => setAuthor(e.target.value)}/>
         </div>
         <div className="form-group">
-          <label htmlFor="image">Image URL:</label>
+          <label htmlFor="image">Course URL:</label>
           <input type="text" id="image" name="image" 
           onChange={(e) => setImageUrl(e.target.value)}/>
         </div>

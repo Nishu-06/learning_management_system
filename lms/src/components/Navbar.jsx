@@ -6,12 +6,12 @@ const Navbar = ({role}) => {
   return (
     <nav className='navbar'>
         <div className='navbar-left'>
-            <Link to="/" className='navbar-brand'>Book Store</Link>
+            <Link to="/" className='navbar-brand'>Learning Management System</Link>
         </div>
         <div className='navbar-right'>
-            <Link to="/books" className='navbar-link'>Books</Link>
+            <Link to="/books" className='navbar-link'>Courses</Link>
             {role==="admin" &&<>
-            <Link to="/addbook" className='navbar-link'>Add Books</Link>
+            <Link to="/addbook" className='navbar-link'>Add Courses</Link>
             <Link to="/addstudent" className='navbar-link'>Add Student</Link>
             <Link to="/dashboard" className='navbar-link'>Dashboard</Link>
             </>

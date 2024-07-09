@@ -8,9 +8,11 @@ const Home = () => {
   return (
     <div className="hero">
       <div className="hero-content">
-        <h1 className="hero-text">Book Shop</h1>
+        <h1 className="hero-text">COURSE MANAGEMENT</h1>
+        <br></br>
         <p className="hero-description">
-          Browse the collection of our best top interesting Books. You will definitely find what you are looking for.
+          Welcome to our COURSE SHOP, where learning is just a click away. 
+          Explore, engage, and excel with our diverse range of courses designed to empower your education journey.
         </p>
       </div>
       <div className="hero-image"></div>

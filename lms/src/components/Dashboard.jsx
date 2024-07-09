@@ -20,7 +20,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <div className="dashboard-box">
-        <h2>Total Books</h2> <br />
+        <h2>Total Courses</h2> <br />
         <h2>{books}</h2>
       </div>
       <div className="dashboard-box">
