@@ -1,4 +1,4 @@
-import React, { useEffect ,useState,useNavigate,useParams} from 'react';
+import { useEffect, useState, useNavigate, useParams } from 'react';
 import axios from 'axios';
 
 const EditBook = () => {
@@ -17,7 +17,7 @@ const EditBook = () => {
                 setImageUrl(res.data.imageUrl);
             })
             .catch((err) => console.log(err));
-    }, []);
+    }, [id]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
